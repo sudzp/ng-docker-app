@@ -1,0 +1,6 @@
+version: '2'
+services:
+  app:
+    image: sudz/ng-docker-app:latest
+    ports:
+    - "80:80"
